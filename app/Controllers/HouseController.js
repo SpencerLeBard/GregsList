@@ -39,13 +39,11 @@ export default class HousesController {
       // @ts-ignore
       img: form.img.value
     }
-    debugger
     houseService.createHouse(rawHouse)
     _drawHouses();
   }
 
   removeHouse(id) {
-    debugger
     // console.log('hornk', id)
     houseService.removeHouse(id);
     _drawHouses();

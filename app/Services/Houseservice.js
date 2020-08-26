@@ -1,4 +1,3 @@
-import Car from "../Models/Car.js";
 import House from "../Models/House.js"
 import STORE from "../store.js";
 

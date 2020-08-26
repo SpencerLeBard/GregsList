@@ -11,9 +11,9 @@ let _state = {
   ],
   /** @type {House[]} */
   houses: [
-    new House({ sqfoot: 2500, bathrooms: 2, bedrooms: 3, price: 250000, img: "url", description: "small" }),
-    new House({ sqfoot: 5000, bathrooms: 4, bedrooms: 6, price: 750000, img: "url", description: "medium" }),
-    new House({ sqfoot: 10000, bathrooms: 8, bedrooms: 10, price: 1000000, img: "url", description: "large" })
+    new House({ sqfoot: 2500, bathrooms: 2, bedrooms: 3, price: 10000, img: "https://bloximages.chicago2.vip.townnews.com/missoulian.com/content/tncms/assets/v3/editorial/4/1a/41a63367-29fd-5ba1-960c-de36ccf3f9b9/5b1ac70224b3e.image.jpg?resize=1200%2C820", description: "Fixer Upper" }),
+    new House({ sqfoot: 5000, bathrooms: 4, bedrooms: 6, price: 750000, img: "https://s3.amazonaws.com/timeinc-houseplans-v2-production/house_plan_images/9005/full/SL-1938_FP_Photo.jpg?1555513266", description: "Average House" }),
+    new House({ sqfoot: 10000, bathrooms: 8, bedrooms: 10, price: 1000000, img: "https://i.pinimg.com/originals/7f/1d/86/7f1d863d7df15dba7008ea663e6f3bae.jpg", description: "Very Nice House" })
   ]
 }
 class Store {
