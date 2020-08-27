@@ -3,17 +3,14 @@ import houseService from "../Services/Houseservice.js"
 import STORE from "../store.js";
 
 // console.log(3)
-// private
+// KEEP PRIVATE PARTS PRIVATE
 function _drawHouses() {
   // console.log(6)
   let houses = STORE.State.houses
   let template = ''
-
-  // NOTE when you have a collection of items, they will need to be added to the template in a loop
   houses.forEach(c => template += c.Template)
   document.getElementById('houses').innerHTML = template
 }
-
 
 //Public
 export default class HousesController {
