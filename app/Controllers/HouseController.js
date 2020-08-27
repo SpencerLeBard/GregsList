@@ -12,7 +12,7 @@ function _drawHouses() {
   document.getElementById('houses').innerHTML = template
 }
 
-//Public
+//KEEP PUBLIC PARTS PUBLIC 
 export default class HousesController {
   constructor() {
     // console.log(5)
